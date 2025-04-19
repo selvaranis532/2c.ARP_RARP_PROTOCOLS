@@ -66,7 +66,7 @@ while True:
     except KeyError:
         c.send("Not Found".encode())
 ```
-## SERVER
+## SERVER:
 ```
 import socket
 s=socket.socket()
